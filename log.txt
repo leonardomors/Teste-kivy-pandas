@@ -1,0 +1,7 @@
+
+ID: 0 ; DATA: 07/12/2022 ; NOME ANTIGO: cachaca; NOME NOVO: pinga
+ID: 1 ; DATA: 07/12/2022 ; NOME ANTIGO: vinho; NOME NOVO: aguardente
+ID: 0 ; DATA: 07/12/2022 ; NOME ANTIGO: pinga; NOME NOVO: retorno
+ID: 1 ; DATA: 07/12/2022 ; NOME ANTIGO: aguardente; NOME NOVO: teste 3
+ID: 0 ; DATA: 07/12/2022 ; NOME ANTIGO: retorno; NOME NOVO: marreta
+ID: 1 ; DATA: 07/12/2022 ; NOME ANTIGO: teste 3; NOME NOVO: biologico
