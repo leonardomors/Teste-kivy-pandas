@@ -1,0 +1,55 @@
+#:kivy 1.11.1
+
+<MainWidget>:
+    orientation: 'vertical'
+    GridLayout:
+        rows: 2
+        cols: 3
+        Label:
+            id:nome_atual1
+            text: 'NOME ATUAL'
+        TextInput:
+            id: nome_novo1
+            text: ''
+            hint_text: 'Nome novo'
+        Button:
+            text:'Atualizar nome'
+            on_release: root.alterar_nome1()
+        Label:
+            id:nome_atual2
+            text: 'NOME ATUAL'
+        TextInput:
+            id: nome_novo2
+            text: ''
+            hint_text: 'Nome novo'
+        Button:
+            text:'Atualizar nome'
+            on_release: root.alterar_nome2()
+    Button:
+        text:'Conectar dados'
+        on_release: root.conectar_dados()
+
+
+
+
+
+
+    # Button:
+    #     id: b1
+    #     text: 'botao 1'
+    # Button:
+    #     id: b2
+    #     text: 'botao 2'
+    # Button:
+    #     id: b3
+    #     text: 'botao 3'
+    # Button:
+    #     id: b4
+    #     text: 'botao 4'
+    # Button:
+    #     id: b5
+    #     text: 'Atualizar dados'
+    #     on_release: root.atualizar_dados()
+    # Button:
+    #     text: 'Alterar dados da planilha'
+    #     on_release: root.alterar_planilha()
